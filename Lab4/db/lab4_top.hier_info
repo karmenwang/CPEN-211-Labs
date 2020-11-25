@@ -1,0 +1,45 @@
+|lab4_top
+SW[0] => Mux2.IN7
+SW[0] => Mux1.IN6
+SW[0] => Mux1.IN7
+SW[0] => Mux0.IN7
+SW[0] => Mux0.IN6
+SW[0] => Mux1.IN4
+SW[0] => Mux1.IN5
+SW[0] => Mux2.IN6
+SW[1] => ~NO_FANOUT~
+SW[2] => ~NO_FANOUT~
+SW[3] => ~NO_FANOUT~
+SW[4] => ~NO_FANOUT~
+SW[5] => ~NO_FANOUT~
+SW[6] => ~NO_FANOUT~
+SW[7] => ~NO_FANOUT~
+SW[8] => ~NO_FANOUT~
+SW[9] => ~NO_FANOUT~
+KEY[0] => clk.IN1
+KEY[1] => next_state_reset.OUTPUTSELECT
+KEY[1] => next_state_reset.OUTPUTSELECT
+KEY[1] => next_state_reset.OUTPUTSELECT
+KEY[2] => ~NO_FANOUT~
+KEY[3] => ~NO_FANOUT~
+HEX0[0] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[3] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[4] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[5] <= HEX0.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4_top|vDFF:STATE
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+in[0] => out[0]~reg0.DATAIN
+in[1] => out[1]~reg0.DATAIN
+in[2] => out[2]~reg0.DATAIN
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

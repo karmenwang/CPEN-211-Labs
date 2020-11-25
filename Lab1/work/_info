@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab1
+vlab1_top
+!s110 1536642496
+!i10b 1
+!s100 Olz5PJd[Ib?^[j^iZLm=S2
+Io_QEmB2KUDfQ_0oG3XkMN0
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1536642480
+8C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab1/lab1_top.v
+FC:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab1/lab1_top.v
+L0 1
+Z2 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1536642496.846000
+!s107 C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab1/lab1_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab1/lab1_top.v|
+!i113 1
+Z3 o-work work
+vlab1_top_tb
+!s110 1536642838
+!i10b 1
+!s100 AIVbRJ1fXOT:eAdN`Z=BC0
+IET3HI4``ZZA@J603f8k;Z2
+R1
+R0
+w1536642823
+8C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab1/lab1_top_tb.v
+FC:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab1/lab1_top_tb.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1536642838.701000
+!s107 C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab1/lab1_top_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab1/lab1_top_tb.v|
+!i113 1
+R3

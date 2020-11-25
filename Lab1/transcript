@@ -1,0 +1,30 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab1/wave.do}
+vsim -gui work.lab1_top_tb
+# vsim -gui C:\Users\Myles\Documents\Karmen\CPEN 211\Labs\Lab1\wave.do 
+# Start time: 13:33:58 on Sep 11,2018
+# Loading work.lab1_top_tb
+# Loading work.lab1_top
+add wave  \
+sim:/lab1_top_tb/sim_LEFT_button \
+sim:/lab1_top_tb/sim_RIGHT_button \
+sim:/lab1_top_tb/sim_A \
+sim:/lab1_top_tb/sim_B \
+sim:/lab1_top_tb/sim_result
+# Error opening C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab1/lab1_top.v
+# Path name 'C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab1/lab1_top.v' doesn't exist.
+add wave  \
+sim:/lab1_top_tb/dut/ANDed_result \
+sim:/lab1_top_tb/dut/ADDed_result
+run -all
+# Output is 1000, we expected 1000
+# Output is 0110, we expected 0110
+# Output is 0100, we expected 0100
+# Output is 0001, we expected 0001
+# ** Note: $stop    : C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab1/lab1_top_tb.v(66)
+#    Time: 25 ps  Iteration: 0  Instance: /lab1_top_tb
+# Break in Module lab1_top_tb at C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab1/lab1_top_tb.v line 66
+# Error opening C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab1/lab1_top_tb.v
+# Path name 'C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab1/lab1_top_tb.v' doesn't exist.
+# End time: 13:49:26 on Sep 11,2018, Elapsed time: 0:15:28
+# Errors: 2, Warnings: 0

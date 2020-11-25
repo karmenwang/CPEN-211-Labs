@@ -1,0 +1,417 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/15.0
+vALU
+Z0 !s110 1540791785
+!i10b 1
+!s100 _D4TfIajWQ7f=N2TNO9`c3
+I@jg?QN:W^E`b=PoPQILCf2
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 dC:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6
+Z3 w1540791078
+8C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/alu.v
+FC:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/alu.v
+L0 2
+Z4 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1540791784.909000
+!s107 C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/alu.v|
+!i113 1
+Z5 o-work work
+n@a@l@u
+vcheckovf
+R0
+!i10b 1
+!s100 6BM>Qb3:N2Lm?R6;jogQz3
+IkD;^m3<IEXI19Y`AlGlSE3
+R1
+R2
+R3
+Z6 8C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/lab6_top.v
+Z7 FC:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/lab6_top.v
+L0 254
+R4
+r1
+!s85 0
+31
+Z8 !s108 1540791785.461000
+Z9 !s107 C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/lab6_top.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/lab6_top.v|
+!i113 1
+R5
+vcpu
+R0
+!i10b 1
+!s100 C^b>>hejYF_YEz6nJ:LIJ1
+I2HI:?S]@fo^AB?B3IJ@I03
+R1
+R2
+R3
+Z11 8C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/cpu.v
+Z12 FC:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/cpu.v
+L0 5
+R4
+r1
+!s85 0
+31
+Z13 !s108 1540791785.065000
+Z14 !s107 C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/cpu.v|
+Z15 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/cpu.v|
+!i113 1
+R5
+vcpu_tb
+R0
+!i10b 1
+!s100 BI53^eV9<L_D0k1hjn]:>0
+IVX4fM50:kVk4jBS46TV4C2
+R1
+R2
+R3
+8C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/cpu_tb.v
+FC:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/cpu_tb.v
+L0 6
+R4
+r1
+!s85 0
+31
+!s108 1540791785.156000
+!s107 C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/cpu_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/cpu_tb.v|
+!i113 1
+R5
+vdatapath
+R0
+!i10b 1
+!s100 `@:>50H[dTK05CJU>DlEU2
+Imbkd2V:;1CkZ_OP4PmUVO3
+R1
+R2
+R3
+8C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/datapath.v
+FC:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/datapath.v
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1540791785.226000
+!s107 C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/datapath.v|
+!i113 1
+R5
+vdatapath_tb
+R0
+!i10b 1
+!s100 9J0UZfTOfFiSEO<N4dcEK2
+IYC>lPXzo0`ZDelQ;K[n<P1
+R1
+R2
+R3
+8C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/datapath_tb.v
+FC:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/datapath_tb.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1540791785.296000
+!s107 C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/datapath_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/datapath_tb.v|
+!i113 1
+R5
+vDec
+R0
+!i10b 1
+!s100 3201gh<DGWT^@^Fb6XEkX0
+Ia9]BA<DkhPQBO<S0k]@No2
+R1
+R2
+R3
+R6
+R7
+L0 177
+R4
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R5
+n@dec
+vinput_iface
+R0
+!i10b 1
+!s100 eeWNTliXeHE@>GZ^YkY]j2
+I0Y5@M9Wa9OOi[ZDmHMe`B3
+R1
+R2
+R3
+R6
+R7
+L0 73
+R4
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R5
+vinstruct_dec
+R0
+!i10b 1
+!s100 =0o5aKRDHfETa7RbDYQXW2
+IJjHUhLIeOnSn<EFLjIY;U3
+R1
+R2
+R3
+R11
+R12
+L0 163
+R4
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 1
+R5
+vlab6_check
+R0
+!i10b 1
+!s100 `d`6DCZH=XQ:JWhGk<_W23
+IjGbRTbOdKQnMa@XMIO9eA1
+R1
+R2
+R3
+8C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/lab6_autograder_check.v
+FC:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/lab6_autograder_check.v
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1540791785.378000
+!s107 C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/lab6_autograder_check.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/lab6_autograder_check.v|
+!i113 1
+R5
+vlab6_top
+R0
+!i10b 1
+!s100 RodGngD818e5z6A1;JGI`1
+IfQA7G?Fa7XD8An17=oZF[1
+R1
+R2
+R3
+R6
+R7
+L0 37
+R4
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R5
+vMux3
+R0
+!i10b 1
+!s100 99_B]z9i^AILOPfF2o2ig2
+I<KH`fPnRdZg^oCacnb`_G2
+R1
+R2
+R3
+R6
+R7
+L0 217
+R4
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R5
+n@mux3
+vMux4
+R0
+!i10b 1
+!s100 =2AY2;IgVK>ch=^:2=e9[3
+I`_5@o0OU`]925o4:SJ0bB1
+R1
+R2
+R3
+R6
+R7
+L0 198
+R4
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R5
+n@mux4
+vMux8
+R0
+!i10b 1
+!s100 gH1HWZRjJV`O8hXFH3DXf3
+I<CmCAZMWnm8>PSRCz>eno0
+R1
+R2
+R3
+R6
+R7
+L0 187
+R4
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R5
+n@mux8
+vregfile
+R0
+!i10b 1
+!s100 Q;AGnMaAX@m@hR215]Wbo2
+InGlMOZ_@P@`3RGClM>H=L1
+R1
+R2
+R3
+8C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/regfile.v
+FC:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/regfile.v
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1540791785.555000
+!s107 C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/regfile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/regfile.v|
+!i113 1
+R5
+vshifter
+R0
+!i10b 1
+!s100 QCJNKJA]Ia8>hA6O;j5[:3
+I@J]z^k1e4nD??UFam08C^0
+R1
+R2
+R3
+8C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/shifter.v
+FC:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/shifter.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1540791785.633000
+!s107 C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/shifter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/shifter.v|
+!i113 1
+R5
+vsseg
+R0
+!i10b 1
+!s100 Ia]mBg_z5Lzg^_]CnPDh>2
+I^7SnDTbX[?R7_668QMaPf2
+R1
+R2
+R3
+R6
+R7
+L0 101
+R4
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R5
+vstate_cntrl
+R0
+!i10b 1
+!s100 j45QZXf_Ng[5;NjEJzZA@1
+Ib?8ZD`Aaf?`Kd3j`i59n<2
+R1
+R2
+R3
+R11
+R12
+L0 65
+R4
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 1
+R5
+vvDFF
+R0
+!i10b 1
+!s100 G2D2@8nD5hJUV;NHn68V>1
+I8EZ[0@AaiQO4KcoODQ2zH1
+R1
+R2
+R3
+R6
+R7
+L0 84
+R4
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R5
+nv@d@f@f
+vvDFFE
+R0
+!i10b 1
+!s100 SINm6;V38NQEhJI0;SIkg1
+INfC_Qb>ml6ENKhEOigg_n0
+R1
+R2
+R3
+R6
+R7
+L0 237
+R4
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R5
+nv@d@f@f@e

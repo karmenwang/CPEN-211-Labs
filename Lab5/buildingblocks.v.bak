@@ -1,0 +1,136 @@
+module Dec(a, b);
+  parameter n = 2;
+  parameter m = 4;
+
+  input [n-1:0] a;
+  output [m-1:0] b;
+
+  wire [m-1:0] b = 1 << a;  
+endmodule
+
+module Mux8(a0,a1,a2,a3,a4,a5,a6,a7, s, b);
+  parameter k = 1;
+  input [7:0] s;
+  input [k-1:0] a7,a6,a5,a4,a3,a2,a1,a0;
+  output [k-1:0] b;
+  wire  [k-1:0] b = 	({k{s[0]}} & a0)|({k{s[1]}} & a1)|({k{s[2]}} & a2)|
+			({k{s[3]}} & a3)|({k{s[4]}} & a4)|({k{s[4]}} & a4)|
+			({k{s[5]}} & a5)|({k{s[6]}} & a6)|({k{s[7]}} & a7);
+
+endmodule
+
+
+module vDFFE(in, load, clk, out);
+  parameter n =1;
+  input load, clk;
+  input [n-1:0] in;
+  output [n-1:0] out;
+  wire [n-1:0] nextout;
+  reg [n-1:0] out;
+
+  assign nextout = (load ? in : out);
+
+  always @(posedge clk)
+	out = nextout;
+  
+endmodule
+
+module shiftern(data,control, outdata);
+  parameter n = 16;
+
+  input [n-1:0] data;
+  input [1:0] control;
+  output [n-1:0] outdata;
+  reg [n-1:0] outdata;
+
+  always @(*) begin
+  case (control)
+    2'b00: outdata = data;
+    2'b01: outdata = data<<1;
+    2'b10: outdata = data>>1;
+    2'b11: outdata = data>>1;
+    
+  endcase
+
+   case (control)
+    2'b00: outdata = data;
+    2'b01: outdata[0] = 1'b0;
+    2'b10: outdata[n-1] = 1'b0;
+    2'b11: outdata[n-1] = data[14];
+    
+  endcase
+  end
+  
+endmodule
+
+module ALUn(Ain, Bin, ALUop, out, Z);
+  parameter n = 2;
+  input [n-1:0] Ain, Bin;
+  input [1:0] ALUop;
+  output [n-1:0] out; 
+  reg [n-1:0] out;
+  output Z;
+
+  always @(*) begin
+  case (ALUop)
+    2'b00: out = Ain + Bin;
+    2'b01: out = Ain - Bin;
+    2'b10: out = Ain & Bin;
+    2'b11: out = ~Bin;
+    
+  endcase
+  end
+
+endmodule
+
+
+module shifter_tb;
+  reg [15:0] data;
+  reg [1:0] control;
+  wire [15:0] out;
+
+  shifter #(16) DUT(data, control, out);
+
+  initial begin 
+
+  data = 16'b1111000011001111; control = 2'b00; #5;
+  $display("%b", out);
+
+  data = 16'b1111000011001111; control = 2'b01; #5;
+  $display("%b", out);
+
+  data = 16'b1111000011001111; control = 2'b10; #5;
+  $display("%b", out);
+
+  data = 16'b1111000011001111; control = 2'b11; #5;
+  $display("%b", out);
+ 
+  end
+endmodule
+
+
+module ALU_tb;
+  reg [2:0] data, data1;
+  reg [1:0] control;
+  wire [2:0] out;
+
+  ALU #(3) DUT(data, data1, control, out);
+
+  initial begin 
+
+  data = 3'b001; data1 = 3'b001; control = 2'b00; #5;
+  $display("%b", out);
+
+  data = 3'b101; data1 = 3'b010; control = 2'b01; #5;
+  $display("%b", out);
+
+  data = 3'b111; data1 = 3'b100; control = 2'b10; #5;
+  $display("%b", out);
+
+  data = 3'b010; data1 = 3'b100; control = 2'b11; #5;
+  $display("%b", out);
+ 
+  end
+endmodule
+
+

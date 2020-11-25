@@ -1,0 +1,113 @@
+{C:/Users/rbot2/OneDrive/Documents/UBCENG/Y2T1/CPEN 211/lab6/datapath_tb.v} {2 {vlog -work work -stats=none {C:/Users/rbot2/OneDrive/Documents/UBCENG/Y2T1/CPEN 211/lab6/datapath_tb.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module datapath_tb
+** Warning: C:/Users/rbot2/OneDrive/Documents/UBCENG/Y2T1/CPEN 211/lab6/datapath_tb.v(137): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	datapath_tb
+
+} {} {}} {C:/Users/rbot2/OneDrive/Documents/UBCENG/Y2T1/CPEN 211/lab6/lab6_autograder_check.v} {1 {vlog -work work -stats=none {C:/Users/rbot2/OneDrive/Documents/UBCENG/Y2T1/CPEN 211/lab6/lab6_autograder_check.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module lab6_check
+
+Top level modules:
+	lab6_check
+
+} {} {}} {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/alu.v} {1 {vlog -work work -stats=none {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/alu.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/datapath_tb.v} {2 {vlog -work work -stats=none {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/datapath_tb.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module datapath_tb
+** Warning: C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/datapath_tb.v(137): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	datapath_tb
+
+} {} {}} {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/regfile.v} {1 {vlog -work work -stats=none {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/regfile.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} {C:/Users/rbot2/OneDrive/Documents/UBCENG/Y2T1/CPEN 211/lab6/shifter.v} {1 {vlog -work work -stats=none {C:/Users/rbot2/OneDrive/Documents/UBCENG/Y2T1/CPEN 211/lab6/shifter.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/datapath.v} {1 {vlog -work work -stats=none {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/datapath.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/lab6_autograder_check.v} {1 {vlog -work work -stats=none {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/lab6_autograder_check.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module lab6_check
+
+Top level modules:
+	lab6_check
+
+} {} {}} {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/lab6_top.v} {1 {vlog -work work -stats=none {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/lab6_top.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module lab6_top
+-- Compiling module input_iface
+-- Compiling module vDFF
+-- Compiling module sseg
+-- Compiling module Dec
+-- Compiling module Mux8
+-- Compiling module Mux4
+-- Compiling module Mux3
+-- Compiling module vDFFE
+-- Compiling module checkovf
+
+Top level modules:
+	lab6_top
+	Dec
+	Mux8
+	Mux4
+	Mux3
+	vDFFE
+	checkovf
+
+} {} {}} {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/cpu.v} {1 {vlog -work work -stats=none {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/cpu.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module cpu
+-- Compiling module state_cntrl
+-- Compiling module instruct_dec
+
+Top level modules:
+	cpu
+
+} {} {}} {C:/Users/rbot2/OneDrive/Documents/UBCENG/Y2T1/CPEN 211/lab6/alu.v} {1 {vlog -work work -stats=none {C:/Users/rbot2/OneDrive/Documents/UBCENG/Y2T1/CPEN 211/lab6/alu.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/shifter.v} {1 {vlog -work work -stats=none {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/shifter.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/cpu_tb.v} {1 {vlog -work work -stats=none {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab6/lab6/cpu_tb.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module cpu_tb
+
+Top level modules:
+	cpu_tb
+
+} {} {}}

@@ -1,0 +1,97 @@
+{C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/regfile_tb.v} {1 {vlog -work work -stats=none {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/regfile_tb.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module regfile_tb
+
+Top level modules:
+	regfile_tb
+
+} {} {}} {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/datapath.v} {1 {vlog -work work -stats=none {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/datapath.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/alu_tb.v} {1 {vlog -work work -stats=none {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/alu_tb.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module ALU_tb
+
+Top level modules:
+	ALU_tb
+
+} {} {}} {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/buildingblocks.v} {1 {vlog -work work -stats=none {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/buildingblocks.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module Dec
+-- Compiling module Mux8
+-- Compiling module vDFFE
+-- Compiling module shiftern
+-- Compiling module ALUn
+-- Compiling module shifter_tb
+-- Compiling module ALU_tb
+
+Top level modules:
+	Dec
+	Mux8
+	vDFFE
+	shifter_tb
+	ALU_tb
+
+} {} {}} {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/datapath_tb.v} {1 {vlog -work work -stats=none {C:\Users\Myles\Documents\Karmen\CPEN 211\Labs\Lab5\datapath_tb.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module datapath_tb
+
+Top level modules:
+	datapath_tb
+
+} {} {}} {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/shifter.v} {1 {vlog -work work -stats=none {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/shifter.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} {D:/CPEN 211/lab5/lab5_autograder_check.v} {1 {vlog -work work -stats=none {D:/CPEN 211/lab5/lab5_autograder_check.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module lab5_check_1
+-- Compiling module lab5_check_2
+-- Compiling module lab5_check_3
+
+Top level modules:
+	lab5_check_1
+	lab5_check_2
+	lab5_check_3
+
+} {} {}} {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/regfile.v} {1 {vlog -work work -stats=none {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/regfile.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/lab5_top.v} {1 {vlog -work work -stats=none {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/lab5_top.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module lab5_top
+-- Compiling module input_iface
+-- Compiling module vDFF
+-- Compiling module sseg
+-- Compiling module lab4_top
+
+Top level modules:
+	lab5_top
+	lab4_top
+
+} {} {}} {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/alu.v} {1 {vlog -work work -stats=none {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/alu.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/shifter_tb.v} {1 {vlog -work work -stats=none {C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/shifter_tb.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module shifter_tb
+
+Top level modules:
+	shifter_tb
+
+} {} {}}

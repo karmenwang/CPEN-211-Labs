@@ -1,0 +1,437 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/15.0
+vALU
+!s110 1539484351
+!i10b 1
+!s100 _D4TfIajWQ7f=N2TNO9`c3
+Ig?[7I3?iV_R?^FHbGZz_50
+Z0 V`JN@9S9cnhjKRR_L]QIcM3
+Z1 dC:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5
+w1539475262
+8C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/alu.v
+FC:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/alu.v
+L0 2
+Z2 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1539484351.879000
+!s107 C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/alu.v|
+!i113 1
+Z3 o-work work
+n@a@l@u
+vALU_tb
+Z4 !s110 1539484352
+!i10b 1
+!s100 ZGMXF<H3MmOiUQNY<gn>O3
+IUG67VoeAm9RiP?lBazC2E0
+R0
+R1
+Z5 w1539484343
+Z6 8C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/buildingblocks.v
+Z7 FC:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/buildingblocks.v
+L0 112
+R2
+r1
+!s85 0
+31
+Z8 !s108 1539484352.085000
+Z9 !s107 C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/buildingblocks.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/buildingblocks.v|
+!i113 1
+R3
+n@a@l@u_tb
+vALUn
+R4
+!i10b 1
+!s100 =imS_ffT2TOAkZ;YWhZ5N2
+INjJRFe?c<glZL?8nBdY533
+R0
+R1
+R5
+R6
+R7
+L0 66
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R3
+n@a@l@un
+vdatapath
+R4
+!i10b 1
+!s100 ^f1JNCLQ<i;ah2RVoS9RI0
+IBdD^NM3ZW=DYVgQJ]f4Sf1
+R0
+R1
+w1539396810
+8C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/datapath.v
+FC:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/datapath.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1539484352.302000
+!s107 C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/datapath.v|
+!i113 1
+R3
+vdatapath_tb
+R4
+!i10b 1
+!s100 6P@HNOK3<9KC8UXm1KdnF2
+IChe6^OOhFLSdF@z<Z3Qz90
+R0
+R1
+w1539484078
+8C:\Users\Myles\Documents\Karmen\CPEN 211\Labs\Lab5\datapath_tb.v
+FC:\Users\Myles\Documents\Karmen\CPEN 211\Labs\Lab5\datapath_tb.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1539484352.742000
+!s107 C:\Users\Myles\Documents\Karmen\CPEN 211\Labs\Lab5\datapath_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Myles\Documents\Karmen\CPEN 211\Labs\Lab5\datapath_tb.v|
+!i113 1
+R3
+vDec
+R4
+!i10b 1
+!s100 9HDff^4eiVE6oHV@JOSib0
+If:aX?M3mkhZ`:OEJdo]PF3
+R0
+R1
+R5
+R6
+R7
+L0 1
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R3
+n@dec
+vinput_iface
+R4
+!i10b 1
+!s100 9=VLblSjgG9jVglRfIOhH2
+IQXdFindPlA_YT[5U^Cek73
+R0
+R1
+Z11 w1539389620
+Z12 8C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/lab5_top.v
+Z13 FC:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/lab5_top.v
+L0 109
+R2
+r1
+!s85 0
+31
+Z14 !s108 1539484352.385000
+Z15 !s107 C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/lab5_top.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/lab5_top.v|
+!i113 1
+R3
+vlab4_top
+R4
+!i10b 1
+!s100 A7j?1MT^FThAoKlE1UViJ3
+I]T7A;lLC<eRIOHab>mT]X2
+R0
+R1
+R11
+R12
+R13
+L0 229
+R2
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R3
+vlab5_check_1
+R4
+!i10b 1
+!s100 BP4O>[V2Y152PkQEEI4fB1
+I6T[dH>NkUGMh^O8=BelDh2
+R0
+R1
+Z17 w1538679884
+Z18 8D:/CPEN 211/lab5/lab5_autograder_check.v
+Z19 FD:/CPEN 211/lab5/lab5_autograder_check.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z20 !s108 1539484352.835000
+Z21 !s107 D:/CPEN 211/lab5/lab5_autograder_check.v|
+Z22 !s90 -reportprogress|300|-work|work|-stats=none|D:/CPEN 211/lab5/lab5_autograder_check.v|
+!i113 1
+R3
+vlab5_check_2
+R4
+!i10b 1
+!s100 RN42FXL7fzKXJg6]^W5On3
+IXgeZHT;OZ7jkVa1T`<@jM0
+R0
+R1
+R17
+R18
+R19
+L0 53
+R2
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R3
+vlab5_check_3
+R4
+!i10b 1
+!s100 L2hWAI6joJD08OT?5zIZZ0
+Ing^0CFzBB`ikaXJ8Q0k`Q1
+R0
+R1
+R17
+R18
+R19
+L0 129
+R2
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R3
+vlab5_top
+R4
+!i10b 1
+!s100 AIV0M5ZV1AhcPcf@?HTFj3
+I:GD]c;VX8nJCKfTD9^NhF2
+R0
+R1
+R11
+R12
+R13
+L0 57
+R2
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R3
+vMux8
+R4
+!i10b 1
+!s100 TkKP4l`WU`KNB?3Sk@hkd3
+I_hSgX@2JT;[3lM^hOQ63e3
+R0
+R1
+R5
+R6
+R7
+L0 11
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R3
+n@mux8
+vregfile
+R4
+!i10b 1
+!s100 W37d@ei^@;20j[c5Jg_`Q3
+IieY;<EMg^Vg59^8f1^GMG2
+R0
+R1
+w1539393316
+8C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/regfile.v
+FC:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/regfile.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1539484352.489000
+!s107 C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/regfile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/regfile.v|
+!i113 1
+R3
+vregfile_tb
+R4
+!i10b 1
+!s100 KnmOB20GcU]fkCEM6hFX<1
+I;gZVTP8IiPN768Kg[gzA^1
+R0
+R1
+w1539476352
+8C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/regfile_tb.v
+FC:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/regfile_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1539484352.580000
+!s107 C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/regfile_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/regfile_tb.v|
+!i113 1
+R3
+vshifter
+R4
+!i10b 1
+!s100 d^dgBbj2I]lPF:kbII87N0
+IQ51W8gIY1^EDbHHJVOXML1
+R0
+R1
+w1539393358
+8C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/shifter.v
+FC:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/shifter.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1539484352.666000
+!s107 C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/shifter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Myles/Documents/Karmen/CPEN 211/Labs/Lab5/shifter.v|
+!i113 1
+R3
+vshifter_tb
+R4
+!i10b 1
+!s100 Ch=a_KeF<J:S0:T8;6A2Z2
+I[0Gg7S_fSLXzlXdGh>0kI3
+R0
+R1
+R5
+R6
+R7
+L0 87
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R3
+vshiftern
+R4
+!i10b 1
+!s100 Se?JXW8bFH5Uc^HTf<a1?1
+I4U?YHz?B=EM^J6d2_=nef3
+R0
+R1
+R5
+R6
+R7
+L0 38
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R3
+vsseg
+R4
+!i10b 1
+!s100 LzAiLVBBBE@i=i?Dz6@611
+I4?FSSzcNEKoi@1[>CLH670
+R0
+R1
+R11
+R12
+R13
+L0 167
+R2
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R3
+vvDFF
+R4
+!i10b 1
+!s100 @H=HKBFWk`NIEL2fGUK?B0
+I>PJf?<SibE625V:>HVDcP3
+R0
+R1
+R11
+R12
+R13
+L0 148
+R2
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R3
+nv@d@f@f
+vvDFFE
+R4
+!i10b 1
+!s100 khK3lQgVYhBEg^=WhGDOF0
+IMe2EV=<2ZL0ekA0@kFRaW1
+R0
+R1
+R5
+R6
+R7
+L0 23
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R3
+nv@d@f@f@e

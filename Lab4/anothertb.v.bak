@@ -1,0 +1,41 @@
+define ON 10'b000000001
+
+module lab4_top_tb();
+  reg [9:0] SW;
+  reg [3:0] KEY;
+  output [6:0] HEX0;
+  
+  lab4_top dut(SW,KEY,HEX0);
+
+  initial begin
+    SW = `ON; KEY = 4'b0011; //should display first value 1
+    #5 
+    SW = `ON; KEY = 4'b0010; //releasing button should hold the value at 1 (first num) and allow user to active next press properly
+    #5
+
+    SW = `ON; KEY = 4'b0011; //should display next value 2
+    #5
+    SW = `ON; KEY = 4'b0010; //release
+    #5
+
+    SW = `ON; KEY = 4'b0011; //should display next value 3
+    #5
+    SW = `ON; KEY = 4'b0010;
+    #5
+
+    SW = `ON; KEY = 4'b0011; //should display next value 4
+    #5
+    SW = `ON; KEY = 4'b0010;
+    #5
+
+    SW = `ON; KEY = 4'b0011; //should display last value 5
+    #5
+    SW = `ON; KEY = 4'b0010;
+    #5
+
+    SW = `ON; KEY = 4'b0011; //since cycle is done, next press should reset the cycle and print first value 1
+    #5
+    SW = `ON; KEY = 4'b0010;
+    #5
+  end
+endmodule
